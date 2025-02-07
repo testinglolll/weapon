@@ -1,0 +1,5 @@
+local args = {
+    [1] = workspace:WaitForChild("Map"):WaitForChild("Buildings"):WaitForChild("GunStore"):WaitForChild("Exterior"):WaitForChild("Gun Store"):WaitForChild("Data"):WaitForChild("Glock 17")
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("Assets"):WaitForChild("Remotes"):WaitForChild("Services"):WaitForChild("WeaponPurchase"):FireServer(unpack(args))
